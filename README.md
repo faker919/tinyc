@@ -2,7 +2,7 @@
 
 ## Overview
 
-Tinyc is tree-based interpreter for a simple programming langage for a C-like language.
+Tinyc is a tree-based interpreter for a simple programming langage for a C-like language.
 
 ## Goals of the project
 
