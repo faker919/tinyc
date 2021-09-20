@@ -1,13 +1,10 @@
 # tinyc
----
 
 ## Overview
----
 
 Tinyc is tree-based interpreter for a simple programming langage for a C-like language.
 
 ## Goals of the project
----
 
 1. Self-education.
     * First rust project
