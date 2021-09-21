@@ -1,3 +1,11 @@
+use std::io::{self, BufRead, Write};
+
 fn main() {
-    println!("Hello, world!");
+    print!("cal> ");
+    io::stdout().flush().unwrap();
+    for line in io::stdin().lock().lines() {
+        println!("{}", line.unwrap());
+        print!("cal> ");
+        io::stdout().flush().unwrap();
+    }
 }
